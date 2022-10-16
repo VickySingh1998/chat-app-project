@@ -1,1 +1,1 @@
-sudo systemctl start gunicorn
+sudo systemctl start gunicorn.service
