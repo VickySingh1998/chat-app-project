@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /fundoo/fundooapp/templates/index.html 
-    destination: /root/chat-app-project
+    destination: /home/ubuntu/chat-app-project
 hooks:
   ApplicationStart:
     - location: scripts/start_server.sh
